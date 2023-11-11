@@ -1,0 +1,58 @@
+/* Apply basic styling to the form */
+form {
+    background-image: url('home.jpg.jpg'); /* Set the background image for the entire page */
+    font-size: 50px;
+    max-width: 300px;
+    margin-right: 45px;
+    font-variant-position: 11px;
+    padding: 550px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.image {
+    width: 50%;
+    height:fit-content;
+}
+
+/* Style form labels */
+label {
+    display: ruby-base-container;
+}
+
+/* Style input fields */
+input[type="text"] {
+    width: 50%;
+    padding: 2500px;
+    margin-left: 10px;
+    border: 100px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style buttons */
+input[type="Patient"],input[type="Pharmasist"],input[type="Admin"],
+button {
+    padding: 10px 20px;
+    background-color: violet;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="Patient"]:hover,input[type="Pharmasist"]:hover,input[type="Admin"],:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add some spacing between the buttons */
+input[type="Patient"],input[type="Pharmasist"],input[type="Admin"] {
+    margin-right: 10px;
+}
+
+/* Center-align the buttons */
+button {
+    display: block;
+    margin: 0 auto;
+}
