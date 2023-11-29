@@ -1,0 +1,24 @@
+<?php
+
+if( isset($_GET["slno"]) ) {
+    $slno = $_GET["slno"];
+
+
+    //create connection
+
+    $hostname ="localhost";
+    $username="root";
+    $password="";
+    $db_name= "mini";
+    
+    
+    $conn = mysqli_connect($hostname,$username,$password,$db_name);
+
+ $sql = "DELETE FROM pharmacist WHERE slno=$slno";
+ $conn->query($sql);
+
+}
+ 
+header("location: /medshoppe/pharmacistlist.php");
+exit;
+?>
