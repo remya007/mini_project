@@ -40,42 +40,37 @@
                 </div>
             </div>
         </div>
-        <div class="content">
+       <div class="content">
             <div class="cards">
-                <div class="card">
+                <a href="pharmacistlist.php" class="card">
                     <div class="box">
                         <h3>pharmacist</h3>
                     </div>
+                </a>
                    
-                </div>
-                <div class="card">
+    
+                <a href="" class="card">
                     <div class="box">
-                        <h3>expired drugs</h3>
+                        <h3>Complaints</h3>
                     </div>
-                   
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h3>complaints</h3>
-                    </div>
+                </a>
                   
-                </div>
-                <div class="card">
+                <a href="" class="card">
                     <div class="box">
-                        <h3>medicine list</h3>
+                        <h3>Medicine list</h3>
                     </div>
                    
-                </div>
-                <div class="card">
+                </a>
+                <a href="" class="card">
                     <div class="box">
-                        <h3>out of stock</h3>
+                        <h3>Out of stock</h3>
                     </div>
-                </div>
-                <div class="card">
+                </a>
+                <a href="" class="card">
                     <div class="box">
                         <h3>Doctors list</h3>
                     </div>
-                    </div>
+                </a>
                            
                 
             </div>
